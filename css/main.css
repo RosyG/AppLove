@@ -19,6 +19,7 @@ body {
 
 img {
   vertical-align: middle;
+  width: 100%;
 }
 
 .container {
@@ -71,25 +72,32 @@ a:hover {
 }
 
 /*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
-
-.icon {
-  position: relative;
-  left: 65%;
-  width: 65px;
-}
-.position {
+header {
+  height: 70px;
   position: fixed;
-  overflow: visible;
+  width: 100%
 }
-.background {
+#back_section {
+  background-color: pink;
+}
+#front-text {
+  position: absolute;
+  bottom: 89%;
+  text-align: center;
+  color: white;
+}
+#text_center {
+  text-align: center;
+}
+.back-image {
   position: relative;
-  top: 100px;
 }
- h2 {/*Son los titulos de cada apartado*/
-   position: absolute;
-    top: 40%;
-    left: 30%;
- }
- #back_services {/*fondo rosa de SERVICES*/
-   background-color: #F17C72;
- }
+.icon {
+  position: absolute;
+  left: 90%;
+  height: 70px;
+}
+.space {
+  top: 70px;
+  position: relative;
+}
