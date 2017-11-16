@@ -67,7 +67,29 @@ a:hover {
 
 .text-uppercase {
   text-transform: uppercase;
+  /*aplicar a las etiquetas a,h2,h5*/
 }
 
 /*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
 
+.icon {
+  position: relative;
+  left: 65%;
+  width: 65px;
+}
+.position {
+  position: fixed;
+  overflow: visible;
+}
+.background {
+  position: relative;
+  top: 100px;
+}
+ h2 {/*Son los titulos de cada apartado*/
+   position: absolute;
+    top: 40%;
+    left: 30%;
+ }
+ #back_services {/*fondo rosa de SERVICES*/
+   background-color: #F17C72;
+ }
